@@ -1,0 +1,40 @@
+
+.bumper {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.horizontal-section{
+  padding-left: 100px;
+  background-color: pink;
+}
+
+.nav{
+  position: fixed;
+  height: 100%;
+  width: 100px;
+  background-color: white;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.element-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.element {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+  margin: 0 20px 0 0;
+  flex-shrink: 0;
+}
